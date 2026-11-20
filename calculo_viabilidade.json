@@ -1,0 +1,21 @@
+{
+  "projeto": "Neighborhood Action Dashboard",
+  "bairro": "Jardim Esperança",
+  "descricao": "Parâmetros fictícios para comparar iluminação pública convencional e postes autônomos solares com LED e IoT.",
+  "quantidade_postes": 40,
+  "potencia_led_w": 30,
+  "horas_funcionamento_por_noite": 12,
+  "dias_funcionamento_por_ano": 365,
+  "fator_uso_com_sensor": 0.35,
+  "preco_kwh_reais": 0.95,
+  "fator_emissao_rede_kg_co2_por_kwh": 0.075,
+  "custo_instalacao_convencional_por_poste_reais": 3500,
+  "custo_instalacao_solar_por_poste_reais": 6500,
+  "percentual_energia_solar_disponivel": 1.0,
+  "observacoes": [
+    "Valores hipotéticos para exercício acadêmico; não são cotações nem medições reais.",
+    "O fator de uso com sensor representa 35% do tempo equivalente em potência plena; o restante considera dimerização.",
+    "O sistema solar é tratado como autônomo e sem consumo de energia da rede durante a operação.",
+    "O cálculo de CO2 considera emissões da eletricidade da rede evitada; não inclui fabricação, transporte ou descarte dos equipamentos."
+  ]
+}
